@@ -1,6 +1,7 @@
 set :blog_title, 'tdksk blog'
 set :blog_description, 'design / tech'
-set :blog_url, 'http://tdksk.github.io/'
+set :site_url, 'http://tdksk.github.io/'
+set :author, 'tdksk'
 
 Time.zone = "Tokyo"
 
