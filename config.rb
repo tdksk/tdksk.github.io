@@ -19,6 +19,8 @@ set :markdown_engine, :redcarpet
 
 activate :livereload
 
+activate :autoprefixer, browsers: ['last 2 versions', 'ie 8', 'ie 9']
+
 activate :blog do |blog|
   blog.sources = "posts/:year-:month-:day-:title.html"
   blog.default_extension = ".md"
