@@ -1,6 +1,6 @@
 Time.zone = "Tokyo"
 
-page "/posts/*.html", layout: :post
+page "/articles/*.html", layout: :article
 page "/feed.xml", layout: false
 
 set :css_dir, 'stylesheets'
@@ -22,7 +22,7 @@ activate :livereload
 activate :autoprefixer, browsers: ['last 2 versions', 'ie 8', 'ie 9']
 
 activate :blog do |blog|
-  blog.sources = "posts/:year-:month-:day-:title.html"
+  blog.sources = "articles/:year-:month-:day-:title.html"
   blog.default_extension = ".md"
   blog.paginate = false
 end
