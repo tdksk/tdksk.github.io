@@ -1,3 +1,7 @@
+set :blog_title, 'tdksk blog'
+set :blog_description, 'design / tech'
+set :blog_url, 'http://tdksk.github.io/'
+
 Time.zone = "Tokyo"
 
 page "/articles/*.html", layout: :article

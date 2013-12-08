@@ -1,0 +1,8 @@
+.articles
+  - blog.articles.each do |article|
+    article
+      = link_to article.url do
+        p.article-date
+          = article.date.to_date
+        p.article-title
+          = article.title

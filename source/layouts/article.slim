@@ -1,0 +1,7 @@
+- wrap_layout :layout do
+  article.article
+    h1.article-title
+      = current_article.title
+    p.article-date
+     = current_article.date.to_date
+    = yield
