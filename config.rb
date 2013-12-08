@@ -51,6 +51,13 @@ set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
 
+Slim::Engine.set_default_options :pretty => true
+Slim::Engine.set_default_options :shortcut => {
+  '#' => {:tag => 'div', :attr => 'id'},
+  '.' => {:tag => 'div', :attr => 'class'},
+  '&' => {:tag => 'input', :attr => 'type'}
+}
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
