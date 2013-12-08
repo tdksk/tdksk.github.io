@@ -58,6 +58,9 @@ Slim::Engine.set_default_options :shortcut => {
   '&' => {:tag => 'input', :attr => 'type'}
 }
 
+set :markdown, :tables => true, :autolink => true, :gh_blockcode => true, :fenced_code_blocks => true, :with_toc_data => true, :smartypants => true
+set :markdown_engine, :redcarpet
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
