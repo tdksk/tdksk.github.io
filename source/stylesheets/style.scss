@@ -65,6 +65,7 @@ a {
 
 .article {
   padding: 10px 0 60px;
+  font-size: .875em;
 
   .article-title {
     font-weight: normal;
@@ -75,7 +76,6 @@ a {
 
   .article-date {
     margin: 0 0 40px;
-    font-size: .75em;
     color: $main_text_color_light;
   }
 }
