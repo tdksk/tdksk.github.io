@@ -123,5 +123,13 @@ a {
     font-size: .75em;
     margin: 0;
     line-height: $footer_height;
+
+    > a {
+      color: $footer_text_color;
+
+      &:hover {
+        color: $main_text_color_light;
+      }
+    }
   }
 }

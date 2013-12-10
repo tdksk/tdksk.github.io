@@ -32,4 +32,9 @@ html lang="ja"
 
     footer.footer
       .container
-        p &copy; 2013 Keisuke Tada
+        p
+          | &copy;
+          |  
+          = Time.now.year
+          |  
+          = link_to config.author, config.portfolio_url

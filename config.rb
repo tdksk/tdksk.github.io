@@ -2,6 +2,7 @@ set :blog_title, 'tdksk blog'
 set :blog_description, 'design / tech'
 set :site_url, 'http://tdksk.github.io/'
 set :author, 'Keisuke Tada'
+set :portfolio_url, 'http://tdksk.com/'
 
 Time.zone = "Tokyo"
 
