@@ -24,7 +24,7 @@ set :markdown, tables: true, autolink: true, gh_blockcode: true, fenced_code_blo
 set :markdown_engine, :redcarpet
 
 activate :livereload
-
+activate :syntax
 activate :autoprefixer, browsers: ['last 2 versions', 'ie 8', 'ie 9']
 
 activate :blog do |blog|
