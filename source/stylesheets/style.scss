@@ -50,6 +50,10 @@ a {
 
     > a {
       color: $main_text_color_light;
+
+      &:hover {
+        color: $main_text_color;
+      }
     }
   }
 
