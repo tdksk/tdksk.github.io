@@ -1,6 +1,6 @@
 set :blog_title, 'tdksk blog'
 set :blog_description, 'design / tech'
-set :site_url, 'http://tdksk.github.io/'
+set :site_url, 'http://blog.tdksk.com/'
 set :author, 'Keisuke Tada'
 set :portfolio_url, 'http://tdksk.com/'
 
