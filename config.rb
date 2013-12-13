@@ -1,4 +1,4 @@
-set :blog_title, 'tdksk blog'
+set :blog_title, 'blog.tdksk.com'
 set :blog_description, 'design / tech'
 set :site_url, 'http://blog.tdksk.com/'
 set :author, 'Keisuke Tada'
