@@ -10,4 +10,8 @@ Zepto(function ($) {
   $('a').on('touchend', function () {
     $(this).removeClass('touch');
   });
+
+  $('a').on('touchmove', function () {
+    $(this).removeClass('touch');
+  });
 });
