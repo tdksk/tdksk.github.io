@@ -1,1 +1,2 @@
-//= require_tree .
+//= require 'zepto.min'
+//= require 'touch'
