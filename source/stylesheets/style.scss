@@ -82,6 +82,11 @@ a {
     margin: 0 0 40px;
     color: $main_text_color_light;
   }
+
+  .speakerdeck-wrapper {
+    max-width: 480px;
+    margin: 0 auto;
+  }
 }
 
 .articles {

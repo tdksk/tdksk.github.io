@@ -5,7 +5,9 @@ date: 2013-05-13 23:23
 
 タイトルは某書籍の<s>パクリ</s>オマージュですが、デザインについて研究室内で話した時に使った資料を公開します。
 
-<script async class="speakerdeck-embed" data-id="3c9145a09e05013028e546328491865e" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<div class="speakerdeck-wrapper">
+  <script async class="speakerdeck-embed" data-id="3c9145a09e05013028e546328491865e" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+</div>
 
 ## なぜこのようなことを研究室で話したか
 自分のいる研究室内や研究科内にはとても優秀な人が多く、皆素晴らしい研究をしています。
