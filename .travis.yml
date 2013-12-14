@@ -1,0 +1,19 @@
+language: ruby
+env:
+  global:
+    - GIT_COMMITTER_NAME: 'tdksk'
+    - GIT_COMMITTER_EMAIL: 'tdkskdt@gmail.com'
+    - GIT_AUTHOR_NAME: 'tdksk'
+    - GIT_AUTHOR_EMAIL: 'tdkskdt@gmail.com'
+    - secure: "Twv4R0TqIz2bDXyMiCejx7jE3SD0zpZaxznf5QbrNbMl5N3I1sXCqhr3VJth+509KpI2baWh9Aqmyp+H4Zl3neBYrnk+1fp9NTNWX0idygWQJTzKmdHZHYrAA37rIRoNyIpvInrFVEw3Y3DjLc6csVLxlbhG2V1DIeRVgdlCdvE="
+script:
+  - bundle exec middleman build
+after_success:
+  - cd build
+  - git init
+  - git add --all
+  - git commit -m 'Update from Travis CI'
+  - 'git push --quiet https://$GH_TOKEN@github.com/tdksk/tdksk.github.io.git master -f 2> /dev/null'
+branches:
+  only:
+    - source
