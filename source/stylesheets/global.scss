@@ -1,0 +1,46 @@
+@import 'settings';
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600);
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  font-weight: normal;
+  font-weight: 400;
+  color: $main_text_color;
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+}
+
+a {
+  color: $link_color;
+  text-decoration: none;
+
+  &:hover {
+    color: $main_text_color;
+  }
+}
+
+.container {
+  max-width: 870px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main {
+  padding-bottom: $footer_height;
+}
+
+@include desktop {
+  .container {
+    padding: 0 25px;
+  }
+}

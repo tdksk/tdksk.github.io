@@ -1,0 +1,7 @@
+@import 'variables';
+
+@mixin desktop {
+  @media screen and (min-width: $mobile_break_point + 1) {
+    @content;
+  }
+}

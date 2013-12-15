@@ -1,0 +1,29 @@
+@import 'settings';
+
+.article {
+  padding: 10px 0 60px;
+  font-size: .875em;
+
+  .article-title {
+    font-weight: normal;
+    font-weight: 400;
+    line-height: 1.25em;
+    margin-bottom: 15px;
+  }
+
+  .article-date {
+    margin: 0 0 40px;
+    color: $main_text_color_light;
+  }
+
+  .speakerdeck-wrapper {
+    max-width: 480px;
+    margin: 0 auto;
+  }
+}
+
+@include desktop {
+  .article {
+    font-size: 1em;
+  }
+}

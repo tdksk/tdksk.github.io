@@ -1,0 +1,25 @@
+@import 'settings';
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  background: $footer_bg;
+  color: $footer_text_color;
+  width: 100%;
+  height: $footer_height;
+  text-align: center;
+
+  p {
+    font-size: .75em;
+    margin: 0;
+    line-height: $footer_height;
+
+    > a {
+      color: $footer_text_color;
+
+      &:hover {
+        color: $main_text_color_light;
+      }
+    }
+  }
+}

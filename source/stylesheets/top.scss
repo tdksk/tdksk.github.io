@@ -1,0 +1,55 @@
+@import 'settings';
+
+.articles {
+  margin: 20px 0 30px;
+
+  article > a {
+    display: block;
+    overflow: auto;
+    padding: 15px;
+    color: $main_text_color;
+    transition: all .2s ease-out;
+
+    &:hover {
+      background: $header_bg;
+      color: $link_color;
+    }
+  }
+
+  .article-date {
+    margin: 0;
+    font-size: .75em;
+    color: $main_text_color_light;
+  }
+
+  .article-title {
+    margin: 2px 0 0 0;
+    font-size: 1.25em;
+    font-weight: normal;
+    font-weight: 400;
+    line-height: 1.25em;
+  }
+}
+
+@include desktop {
+  .articles {
+    margin: 25px 0 40px;
+
+    article > a {
+      padding: 10px 15px;
+    }
+
+    .article-date {
+      float: left;
+      width: 70px;
+      margin: 0 -70px 0 0;
+      line-height: 2.5em;
+    }
+
+    .article-title {
+      float: left;
+      margin: 0 0 0 90px;
+      line-height: 1.5em;
+    }
+  }
+}

@@ -1,7 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600);
-
-$mobile_break_point: 640px;
-
 $white: #fff;
 $black: #444;
 $gray: #999;
@@ -15,3 +11,5 @@ $header_bg: $extra_light_gray;
 $footer_bg: $black;
 $footer_text_color: $white;
 $footer_height: 40px;
+
+$mobile_break_point: 640px;
