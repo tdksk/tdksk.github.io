@@ -97,7 +97,7 @@ a {
     overflow: auto;
     padding: 15px;
     color: $main_text_color;
-    transition: color .3s;
+    transition: all .2s ease-out;
 
     &:hover {
       background: $header_bg;
