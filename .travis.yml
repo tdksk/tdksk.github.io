@@ -5,7 +5,7 @@ env:
     - GIT_COMMITTER_EMAIL: 'tdkskdt@gmail.com'
     - GIT_AUTHOR_NAME: 'tdksk'
     - GIT_AUTHOR_EMAIL: 'tdkskdt@gmail.com'
-    - secure: "Twv4R0TqIz2bDXyMiCejx7jE3SD0zpZaxznf5QbrNbMl5N3I1sXCqhr3VJth+509KpI2baWh9Aqmyp+H4Zl3neBYrnk+1fp9NTNWX0idygWQJTzKmdHZHYrAA37rIRoNyIpvInrFVEw3Y3DjLc6csVLxlbhG2V1DIeRVgdlCdvE="
+    - secure: 'Twv4R0TqIz2bDXyMiCejx7jE3SD0zpZaxznf5QbrNbMl5N3I1sXCqhr3VJth+509KpI2baWh9Aqmyp+H4Zl3neBYrnk+1fp9NTNWX0idygWQJTzKmdHZHYrAA37rIRoNyIpvInrFVEw3Y3DjLc6csVLxlbhG2V1DIeRVgdlCdvE='
 script:
   - bundle exec middleman build
 after_success:

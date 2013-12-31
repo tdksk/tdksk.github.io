@@ -4,10 +4,10 @@ set :site_url, 'http://blog.tdksk.com/'
 set :author, 'Keisuke Tada'
 set :portfolio_url, 'http://tdksk.com/'
 
-Time.zone = "Tokyo"
+Time.zone = 'Tokyo'
 
-page "/articles/*.html", layout: :article
-page "/feed.xml", layout: false
+page '/articles/*.html', layout: :article
+page '/feed.xml', layout: false
 
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
@@ -28,8 +28,8 @@ activate :syntax
 activate :autoprefixer, browsers: ['last 2 versions', 'ie 8', 'ie 9']
 
 activate :blog do |blog|
-  blog.sources = "articles/:year-:month-:day-:title.html"
-  blog.default_extension = ".md"
+  blog.sources = 'articles/:year-:month-:day-:title.html'
+  blog.default_extension = '.md'
   blog.paginate = false
 end
 
