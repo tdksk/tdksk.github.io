@@ -19,6 +19,15 @@
   .speakerdeck-wrapper {
     max-width: 480px;
   }
+
+  blockquote {
+    font-style: italic;
+    color: $dark_gray;
+    border-left: 3px solid $light_gray;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 20px;
+  }
 }
 
 @include desktop {
