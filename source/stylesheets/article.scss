@@ -21,6 +21,12 @@
     max-width: 480px;
   }
 
+  a {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
   blockquote {
     font-style: italic;
     color: $dark_gray;

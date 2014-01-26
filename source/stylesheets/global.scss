@@ -23,10 +23,6 @@ body {
 a {
   color: $link_color;
   text-decoration: none;
-
-  &:hover {
-    color: $main_text_color;
-  }
 }
 
 .container {
