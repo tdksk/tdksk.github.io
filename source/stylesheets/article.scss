@@ -22,6 +22,8 @@
   }
 
   a {
+    word-wrap: break-word;
+
     &:hover {
       text-decoration: underline;
     }
@@ -34,6 +36,10 @@
     margin-left: 0;
     margin-right: 0;
     padding: 0 20px;
+  }
+
+  img {
+    max-width: 100%;
   }
 }
 
