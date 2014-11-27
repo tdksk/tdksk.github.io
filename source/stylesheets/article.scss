@@ -21,6 +21,28 @@
     max-width: 480px;
   }
 
+  h2, h3, h4 {
+    font-weight: bold;
+    margin: 1.25em 0 .5em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: .75em;
+  }
+
+  h3 {
+    font-size: 1.25em;
+  }
+
+  h4 {
+    font-size: 1em;
+  }
+
+  p {
+    margin: 0 0 1em;
+  }
+
   a {
     word-wrap: break-word;
 
