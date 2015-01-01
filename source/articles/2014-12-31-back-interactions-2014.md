@@ -66,6 +66,7 @@ Sloppy Swiping で戻る操作はとてもやりやすく強力なアプロー�
 - Wunderlist
 - Unread
 - Tinder（メッセージ画面）
+- DuckDuckGo
 - Flipboard
   - 加速度が大きいと指を離さなくても遷移
 - Reeder 2
