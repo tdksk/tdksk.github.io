@@ -17,7 +17,7 @@ iPhone も年々デバイスサイズが大きくなっていき、左上のナ�
 
 - Apple 純正アプリ
 - Tumblr
-- Lift
+- Coach.me
 - Basecamp
 - Google (WebView)
 - The New York Times
@@ -114,7 +114,7 @@ UI 的には上記のものの下位互換。指を一定距離動かすか離�
 - Yahoo News Digest
 - Fancy
 - Spring
-  - 最上部で上から下に引っ張って離しても戻る
+  - 上から下に引っ張って離しても戻る
 - Simplenote
 
 ### Sloppy Swiping で上から下に引っ張って離すと戻る
@@ -137,7 +137,7 @@ Facebook Paper はトランジションの種類が多いが、トランジシ�
 - Siori（コメントポップアップ）
 - Facebook（コメントポップアップ）
 - Facebook Paper（コメントポップアップ）
-  - 最下部で下から上に引っ張っても戻る
+  - 下から上に引っ張っても戻る
 - Inbox
   - 下から上に引っ張っても戻る
 - Antenna（WebView）
