@@ -40,7 +40,6 @@ iPhone も年々デバイスサイズが大きくなっていき、左上のナ�
 - Evernote
 - Vine
 - Product Hunt
-- 755
 
 ### Screen Edge Swipe 無効
 
@@ -80,6 +79,7 @@ UI 的には上記のものの下位互換。指を一定距離動かすか離�
 - Sunrise
 - Yummly
 - クックパッド
+- 755
 - NewsPicks
 - Gunosy
 - SmartNews
