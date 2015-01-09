@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>blog.tdksk.com</title>
+  <subtitle>design / tech</subtitle>
+  <id>http://blog.tdksk.com/</id>
+  <link href="http://blog.tdksk.com/"/>
+  <link href="http://blog.tdksk.com/feed.xml" rel="self"/>
+  <updated>2015-01-09T04:40:00Z</updated>
+  <author>
+    <name>Keisuke Tada</name>
+  </author>
+  <entry>
+    <title>iOS アプリのアニメーションパターン集 CAPPTIVATE.co の iOS アプリが出てたので紹介</title>
+    <link rel="alternate" href="http://blog.tdksk.com/2015/01/09/capptivate-ios.html"/>
+    <id>http://blog.tdksk.com/2015/01/09/capptivate-ios.html</id>
+    <published>2015-01-09T04:40:00Z</published>
+    <updated>2015-01-09T04:43:12+00:00</updated>
+    <author>
+      <name>Keisuke Tada</name>
+    </author>
+    <content type="html">&lt;h2 id="toc_0"&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;CAPPTIVATE.co（iOS アプリのアニメーションパターン集）の iOS アプリが出て便利だった&lt;br&gt;
+&lt;a href="https://itunes.apple.com/us/app/capptivate.co/id940220184"&gt;https://itunes.apple.com/us/app/capptivate.co/id940220184&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id="toc_1"&gt;CAPPTIVATE.co とは&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="http://capptivate.co/"&gt;http://capptivate.co/&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;iOS アプリのアニメーションをまとめた Web サイト&lt;/li&gt;
+&lt;li&gt;そこそこ更新されている&lt;/li&gt;
+&lt;li&gt;今年頭に iOS アプリが出た &lt;a href="https://itunes.apple.com/us/app/capptivate.co/id940220184"&gt;https://itunes.apple.com/us/app/capptivate.co/id940220184&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="toc_2"&gt;iOS アプリになってなにが便利か&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;実際のデバイスの画面上において実際のアプリと同じサイズでアニメーションを見ることができる
+
+&lt;ul&gt;
+&lt;li&gt;これがキラー要素&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;気になったアプリはすぐにダウンロードできる
+
+&lt;ul&gt;
+&lt;li&gt;App Store へのリンクがついていてアプリ内ブラウザで開くため、他のアプリに移ることなくどんどんアプリをダウンロードできる&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="toc_3"&gt;他のおすすめの iOS アプリ UI パターン集&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.pttrns.com/"&gt;Pttrns - Mobile User Interface Patterns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.mobile-patterns.com/"&gt;Mobile Patterns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://inspired-ui.com/"&gt;Inspired UI - Mobile Apps Design Patterns [iPhone]&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <title>2014年買ってよかったもの</title>
+    <link rel="alternate" href="http://blog.tdksk.com/2015/01/02/best-buy-2014.html"/>
+    <id>http://blog.tdksk.com/2015/01/02/best-buy-2014.html</id>
+    <published>2015-01-02T11:40:00Z</published>
+    <updated>2015-01-09T04:43:12+00:00</updated>
+    <author>
+      <name>Keisuke Tada</name>
+    </author>
+    <content type="html">&lt;h2 id="toc_0"&gt;&lt;a href="http://www.amazon.co.jp/gp/product/B00BKEQBI0/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=247&amp;amp;creative=7399&amp;amp;creativeASIN=B00BKEQBI0&amp;amp;linkCode=as2&amp;amp;tag=tdksk-22"&gt;Pebble&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="http://www.amazon.co.jp/gp/product/B00BKEQBI0/ref=as_li_ss_il?ie=UTF8&amp;camp=247&amp;creative=7399&amp;creativeASIN=B00BKEQBI0&amp;linkCode=as2&amp;tag=tdksk-22"&gt;&lt;img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=B00BKEQBI0&amp;Format=_SL250_&amp;ID=AsinImage&amp;MarketPlace=JP&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=tdksk-22" &gt;&lt;/a&gt;&lt;img src="http://ir-jp.amazon-adsystem.com/e/ir?t=tdksk-22&amp;l=as2&amp;o=9&amp;a=B00BKEQBI0" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt;&lt;/p&gt;
+
+&lt;p&gt;2014年のはじめに買った。スマートフォンの通知を受けることにしか使っていないけど、それが便利でとても気に入ってる。スマートフォンの画面を見る時間が減って、スマートフォンが情報を受け取るハブになる感覚になった。電池が1週間持つのが最高に良い。色はオレンジにしたけど良い具合におもちゃっぽい感じが好き。&lt;/p&gt;
+
+&lt;h2 id="toc_1"&gt;&lt;a href="http://www.amazon.co.jp/gp/product/B00EXY1RS8/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=247&amp;amp;creative=7399&amp;amp;creativeASIN=B00EXY1RS8&amp;amp;linkCode=as2&amp;amp;tag=tdksk-22"&gt;Chromecast&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="http://www.amazon.co.jp/gp/product/B00KGVN140/ref=as_li_ss_il?ie=UTF8&amp;camp=247&amp;creative=7399&amp;creativeASIN=B00KGVN140&amp;linkCode=as2&amp;tag=tdksk-22"&gt;&lt;img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=B00KGVN140&amp;Format=_SL250_&amp;ID=AsinImage&amp;MarketPlace=JP&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=tdksk-22" &gt;&lt;/a&gt;&lt;img src="http://ir-jp.amazon-adsystem.com/e/ir?t=tdksk-22&amp;l=as2&amp;o=9&amp;a=B00KGVN140" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt;&lt;/p&gt;
+
+&lt;p&gt;自分で買ったのではなくアメリカに行った時にもらったもの。ルームシェアしているのでリビングのテレビにつないでみんなで動画を観るのに使ってる。使いたいと思ったときにすぐ使えるのが良い。&lt;/p&gt;
+
+&lt;h2 id="toc_2"&gt;&lt;a href="http://www.amazon.co.jp/gp/product/B00EXY1RS8/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=247&amp;amp;creative=7399&amp;amp;creativeASIN=B00EXY1RS8&amp;amp;linkCode=as2&amp;amp;tag=tdksk-22"&gt;Plantronics Backbeat Go 2&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="http://www.amazon.co.jp/gp/product/B00EXY1RS8/ref=as_li_ss_il?ie=UTF8&amp;camp=247&amp;creative=7399&amp;creativeASIN=B00EXY1RS8&amp;linkCode=as2&amp;tag=tdksk-22"&gt;&lt;img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=B00EXY1RS8&amp;Format=_SL250_&amp;ID=AsinImage&amp;MarketPlace=JP&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=tdksk-22" &gt;&lt;/a&gt;&lt;img src="http://ir-jp.amazon-adsystem.com/e/ir?t=tdksk-22&amp;l=as2&amp;o=9&amp;a=B00EXY1RS8" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt;&lt;/p&gt;
+
+&lt;p&gt;移動中（主に徒歩）に音楽聴くことは極端に減ったけど、代わりに Podcast 聴くことが増えて音質より手軽さを求めるようになったため Bluetooth イヤホンを買った。音質は別に良くないけど、接続は安定している。特に冬場は有線だと歩いている時邪魔すぎるので快適になった。イヤホンを接続する煩わしさが解消されたことも相まって聴く機会が増えたと思う。電池の持ちが悪いのが不満なので &lt;a href="http://www.amazon.co.jp/gp/product/B00IOCI634/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=247&amp;amp;creative=7399&amp;amp;creativeASIN=B00IOCI634&amp;amp;linkCode=as2&amp;amp;tag=tdksk-22"&gt;Sony SBH80&lt;/a&gt; が欲しいと今は思ってる。&lt;/p&gt;
+
+&lt;h2 id="toc_3"&gt;&lt;a href="http://www.amazon.co.jp/gp/product/B00E59PL9W/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=247&amp;amp;creative=7399&amp;amp;creativeASIN=B00E59PL9W&amp;amp;linkCode=as2&amp;amp;tag=tdksk-22"&gt;Panasonic ラムダッシュ&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="http://www.amazon.co.jp/gp/product/B00E59PL9W/ref=as_li_ss_il?ie=UTF8&amp;camp=247&amp;creative=7399&amp;creativeASIN=B00E59PL9W&amp;linkCode=as2&amp;tag=tdksk-22"&gt;&lt;img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=B00E59PL9W&amp;Format=_SL250_&amp;ID=AsinImage&amp;MarketPlace=JP&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=tdksk-22" &gt;&lt;/a&gt;&lt;img src="http://ir-jp.amazon-adsystem.com/e/ir?t=tdksk-22&amp;l=as2&amp;o=9&amp;a=B00E59PL9W" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.amazon.co.jp/gp/product/B00MFBGL28/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=247&amp;amp;creative=7399&amp;amp;creativeASIN=B00MFBGL28&amp;amp;linkCode=as2&amp;amp;tag=tdksk-22"&gt;ES_LV96&lt;/a&gt; をもらった。今までずっとT字カミソリを使っていたので初めての電気シェーバー。思ってたより深剃りできるし、なにより手軽に剃ることができるのが良い。&lt;/p&gt;
+
+&lt;h2 id="toc_4"&gt;iPhone 5s&lt;/h2&gt;
+
+&lt;p&gt;去年は Xperia SX メインで途中から iPhone も併用していたけど、Xperia SX が壊れたことをきっかけに iPhone 一本にすることにして 5s の SIM フリーを買った。結構気に入ってたんだけど、半年もしないうちになくしてしょうがなく iPhone 6 買った。でもやっぱり検証とユーザテスト用にどうしても 5s が欲しかったから友達から買い取ってもう一度手に入れた。6 はでかい。5s は手に馴染むサイズ感でよくできている。&lt;/p&gt;
+
+&lt;h2 id="toc_5"&gt;HOLUBAR マウンテンパーカー&lt;/h2&gt;
+
+&lt;p&gt;ずっとまともな服を買っていなくて冬凍え死にそうになっていたけど、たまたま見つけた服に一目惚れして購入。色は黒で形もシンプルなんだけどアクセントで少し入っている赤が良い感じで、かつ着ていてとても暖かいので気に入ってる。自分にとっては高額なので気軽に着ることができないのが難点。&lt;/p&gt;
+
+&lt;h2 id="toc_6"&gt;&lt;a href="http://www.amazon.co.jp/gp/product/B008J7LEJC/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=247&amp;amp;creative=7399&amp;amp;creativeASIN=B008J7LEJC&amp;amp;linkCode=as2&amp;amp;tag=tdksk-22"&gt;ccilu-amazon&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="http://www.amazon.co.jp/gp/product/B008J7LEJC/ref=as_li_ss_il?ie=UTF8&amp;camp=247&amp;creative=7399&amp;creativeASIN=B008J7LEJC&amp;linkCode=as2&amp;tag=tdksk-22"&gt;&lt;img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=B008J7LEJC&amp;Format=_SL250_&amp;ID=AsinImage&amp;MarketPlace=JP&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=tdksk-22" &gt;&lt;/a&gt;&lt;img src="http://ir-jp.amazon-adsystem.com/e/ir?t=tdksk-22&amp;l=as2&amp;o=9&amp;a=B008J7LEJC" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt;&lt;/p&gt;
+
+&lt;p&gt;2013年の夏に一番スタンダードなやつ（色はネイビー）を買ってその履き心地に気に入っていたので違う色を買おうと思って探していたら、インナーが秋仕様っぽいもの（色はオレンジ）を店舗で見つけたので購入。オールシーズンで使える（と思い込んでいる）ので使い勝手が良い。&lt;/p&gt;
+
+&lt;h2 id="toc_7"&gt;まとめ&lt;/h2&gt;
+
+&lt;p&gt;着々と歳を重ねているせいか、昔よりも手軽さ、気軽さを重要視するようになっている気がする。長年の経験から、使っている時はそれなりに便利だけど使いはじめるまでが面倒くさいものは使わなくなるということを分かっているからだと思う。2015年も良いものに巡りあって生活を少しでも良くしていきたい。&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>インタラクション時代における iOS アプリの戻る（閉じる）操作の種類のまとめ 2014年版</title>
+    <link rel="alternate" href="http://blog.tdksk.com/2014/12/31/back-interactions-2014.html"/>
+    <id>http://blog.tdksk.com/2014/12/31/back-interactions-2014.html</id>
+    <published>2014-12-31T13:40:00Z</published>
+    <updated>2015-01-09T04:43:12+00:00</updated>
+    <author>
+      <name>Keisuke Tada</name>
+    </author>
+    <content type="html">&lt;h2 id="toc_0"&gt;背景&lt;/h2&gt;
+
+&lt;p&gt;iPhone も年々デバイスサイズが大きくなっていき、左上のナビゲーションバー上のボタンを片手で押すことが困難になってきました。そのような時代においてはスワイプジェスチャーによるナビゲーション操作が今まで以上に重要になってきます。また、最近では情報の階層を分かりやすく表現するためにトランジションもどんどん工夫されています。トランジションが複雑になればなるほどその操作も複雑になるため、分かりやすさと使いやすさを両立するためにインタラクションを工夫する必要があります。&lt;/p&gt;
+
+&lt;p&gt;そんな2014年の終わりとして現時点での情報閲覧系 iOS アプリでの戻る（閉じる）操作の種類をまとめてみました。&lt;/p&gt;
+
+&lt;h2 id="toc_1"&gt;遷移（Push）時のトランジションがデフォルト（新しい画面が右から左に出てくる）&lt;/h2&gt;
+
+&lt;h3 id="toc_2"&gt;Screen Edge Swipe（デフォルトの Pop トランジション）&lt;/h3&gt;
+
+&lt;p&gt;デフォルトの Push トランジションで遷移した画面は、画面左端を右方向にスワイプすることで戻ることができる。最も無難な選択肢で、中途半端なカスタムトランジションを作るくらいなら Push も Pop もデフォルトのトランジションにするのが分かりやすいし操作もしやすい。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Apple 純正アプリ&lt;/li&gt;
+&lt;li&gt;Tumblr&lt;/li&gt;
+&lt;li&gt;Coach.me&lt;/li&gt;
+&lt;li&gt;Basecamp&lt;/li&gt;
+&lt;li&gt;Google (WebView)&lt;/li&gt;
+&lt;li&gt;The New York Times&lt;/li&gt;
+&lt;li&gt;BuzzFeed&lt;/li&gt;
+&lt;li&gt;LINE&lt;/li&gt;
+&lt;li&gt;Wantedly&lt;/li&gt;
+&lt;li&gt;Sumally&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="toc_3"&gt;Screen Edge Swipe が有効だが、スクロール時には無効&lt;/h3&gt;
+
+&lt;p&gt;デフォルトの Screen Edge Swipe のジェスチャー検出はスクロール時にも行われるため、左手で操作している人だと上方向にスクロールしている時に意図せず Screen Edge Swipe となり画面が戻ることがあるという問題もある。そのためかいくつかのアプリではスクロール時は Screen Edge Swipe を無効化しているものがある。&lt;/p&gt;
+
+&lt;p&gt;実装参考：&lt;a href="http://qiita.com/inamiy/items/fa91da40d0da53123a83"&gt;iOS - UINavigationControllerのinteractivePopGestureRecognizerの感度を調整する - Qiita&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Facebook&lt;/li&gt;
+&lt;li&gt;Twitter&lt;/li&gt;
+&lt;li&gt;Airbnb&lt;/li&gt;
+&lt;li&gt;Foursquare&lt;/li&gt;
+&lt;li&gt;Yelp&lt;/li&gt;
+&lt;li&gt;Evernote&lt;/li&gt;
+&lt;li&gt;Vine&lt;/li&gt;
+&lt;li&gt;Product Hunt&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="toc_4"&gt;Screen Edge Swipe 無効&lt;/h3&gt;
+
+&lt;p&gt;Screen Edge Swipe で戻る動作が無効になっているものもある。通常の Push トランジションのような遷移の場合は、基本的に無効化するべきでない。Google のアプリは頑なに有効化しないイメージ。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Gmail&lt;/li&gt;
+&lt;li&gt;Google Chrome&lt;/li&gt;
+&lt;li&gt;Gogobot&lt;/li&gt;
+&lt;li&gt;SideChef&lt;/li&gt;
+&lt;li&gt;Medium&lt;/li&gt;
+&lt;li&gt;WEAR&lt;/li&gt;
+&lt;li&gt;食べログ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="toc_5"&gt;Sloppy Swiping&lt;/h3&gt;
+
+&lt;p&gt;今年頭に &lt;a href="http://thenewsprint.co/2014/04/16/sloppy-swiping/"&gt;Josh Ginter がブログで提唱した&lt;/a&gt; 言葉（その後 &lt;a href="http://blog.jaredsinclair.com/post/83544603052/sloppy-swiping-how-to-make-an-app-feel"&gt;Jared Sinclair も詳しく言及している&lt;/a&gt;）。画面端という特定の場所だけでなく、画面内の任意の場所でのスワイプのことを指す。&lt;/p&gt;
+
+&lt;p&gt;Sloppy Swiping で戻る操作はとてもやりやすく強力なアプローチだが、これを有効にするとその他のスワイプジェスチャーを殺さざるをえないという諸刃の剣。Reeder 2 は戻るだけでなく進む動作も Sloppy Swiping で可能でこれ自体はとても良いが、セルの部分をスワイプすると別の挙動になったり、WebView では Sloppy Swiping が有効でなくなったりしているため一貫性がなく全体としてあまり良いとはいえない。Sloppy Swiping で戻る動作を有効にするなら、アプリ内全てで一貫して（どの画面、どの位置でも）この操作が有効になるようにするべき。Instagram はとても良くできていて使っていて気持ちが良い。&lt;/p&gt;
+
+&lt;p&gt;実装参考：&lt;a href="https://github.com/fastred/SloppySwiper"&gt;fastred/SloppySwiper&lt;/a&gt;、&lt;a href="http://akisute.com/2014/08/uinavigationcontrollerinteractivepopges.html"&gt;A-Liaison BLOG: UINavigationController.interactivePopGestureRecognizer の挙動を魔改造して変えてみる&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Instagram&lt;/li&gt;
+&lt;li&gt;Wunderlist&lt;/li&gt;
+&lt;li&gt;Unread&lt;/li&gt;
+&lt;li&gt;Tinder（メッセージ画面）&lt;/li&gt;
+&lt;li&gt;DuckDuckGo&lt;/li&gt;
+&lt;li&gt;Flipboard
+
+&lt;ul&gt;
+&lt;li&gt;加速度が大きいと指を離さなくても遷移&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Reeder 2
+
+&lt;ul&gt;
+&lt;li&gt;セル部分は別の挙動&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="toc_6"&gt;指の動きについてこない Sloppy Swiping&lt;/h3&gt;
+
+&lt;p&gt;UI 的には上記のものの下位互換。指を一定距離動かすか離すまで画面が何も変化しない（アフォーダンスが発生しない）ので学習コストが高い上に使っていて気持ちが悪い。特別な理由がなければ指の動きに合わせて画面が動くようにするべき。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Instapaper&lt;/li&gt;
+&lt;li&gt;Sunrise&lt;/li&gt;
+&lt;li&gt;Yummly&lt;/li&gt;
+&lt;li&gt;クックパッド&lt;/li&gt;
+&lt;li&gt;755&lt;/li&gt;
+&lt;li&gt;NewsPicks&lt;/li&gt;
+&lt;li&gt;Gunosy&lt;/li&gt;
+&lt;li&gt;SmartNews
+
+&lt;ul&gt;
+&lt;li&gt;トランジションが特殊&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="toc_7"&gt;遷移（Push）時のトランジションが特殊&lt;/h2&gt;
+
+&lt;h3 id="toc_8"&gt;Screen Edge Swipe で戻るときはデフォルトの Pop トランジション&lt;/h3&gt;
+
+&lt;p&gt;最近では Push 時のトランジションが、対象がズームするもしくは中身が広がるようなものが増えた（&lt;a href="http://www.google.com/design/spec/patterns/navigational-transitions.html#navigational-transitions-parent-to-child"&gt;Material Design でも採用されている&lt;/a&gt;）。ナビゲーションバーの戻る（閉じる）ボタンを押すと逆のトランジションで戻るが、利便性を考えてか Screen Edge Swipe でデフォルトの Pop トランジションで戻ることのできるものが多い。トランジションの一貫性はないものの、戻るときの操作自体には違和感が少ないという利点がある。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Snapguide&lt;/li&gt;
+&lt;li&gt;Sosh&lt;/li&gt;
+&lt;li&gt;Play Newsstand&lt;/li&gt;
+&lt;li&gt;Pinterest
+
+&lt;ul&gt;
+&lt;li&gt;上から下に引っ張って離しても戻る&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Facebook Groups
+
+&lt;ul&gt;
+&lt;li&gt;上から下に引っ張って離しても戻る&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Mashable
+
+&lt;ul&gt;
+&lt;li&gt;戻るボタンを押した時もデフォルト Pop トランジション&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="toc_9"&gt;Screen Edge Swipe で戻るときがその逆のトランジション&lt;/h3&gt;
+
+&lt;p&gt;上と同じような特殊トランジションをするが、Screen Edge Swipe で通常の Pop トランジションではなく特殊トランジションとなる。Push 時のトランジションの逆のトランジションになるので迷いにくく、かつトランジションが指の動きについてくるので操作の気持ちよさはあるものの、そのトランジションが必ずしも左から右への動作と感覚的に一致するものとは限らないので分かりにくいかも。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Design Shots&lt;/li&gt;
+&lt;li&gt;Evernote（Notebooks や Tags 開閉）&lt;/li&gt;
+&lt;li&gt;iQON
+
+&lt;ul&gt;
+&lt;li&gt;スクロール後はデフォルト Pop トランジションで戻る&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="toc_10"&gt;左端からスワイプした瞬間にトランジション&lt;/h3&gt;
+
+&lt;p&gt;スワイプジェスチャーが検出された瞬間にトランジションが発動するものもいくつか存在する。指の動きについてこず気持ち悪いため、上のような実装にするほうがベターな感じはする。とはいえ、戻るためにボタンを押す以外の選択肢を与えないよりは良い。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Yahoo News Digest&lt;/li&gt;
+&lt;li&gt;Fancy&lt;/li&gt;
+&lt;li&gt;Spring
+
+&lt;ul&gt;
+&lt;li&gt;上から下に引っ張って離しても戻る&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Simplenote&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="toc_11"&gt;Sloppy Swiping で上から下に引っ張って離すと戻る&lt;/h3&gt;
+
+&lt;p&gt;ズームもしくは中身が広がるようなトランジションの場合、上から下に引っ張る動作で戻ることができるものも多い。上下にスクロールするような画面の場合、一番上まで戻った時にさらにスクロールすると前の画面に戻るというのはある意味自然なのかもしれない。感覚としても上から下に引っ張って離した時に縮小したりするトランジションは違和感が少ない。&lt;/p&gt;
+
+&lt;p&gt;Facebook Paper はトランジションの種類が多いが、トランジションに合わせてどこかしらに Sloppy Swiping すると戻る挙動になっていて使いやすさを保っていてすごい。Storehouse は上下左右どの方向にスワイプしても縮小して戻ることができてすごい（このアプリは動きが独特で水の中にいるような錯覚を覚える）。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Spring
+
+&lt;ul&gt;
+&lt;li&gt;Screen Edge Swipe した瞬間にもトランジション発火&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Pinterest
+
+&lt;ul&gt;
+&lt;li&gt;Screen Edge Swipe でデフォルト Pop トランジションで戻る&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Rooms&lt;/li&gt;
+&lt;li&gt;Facebook Groups
+
+&lt;ul&gt;
+&lt;li&gt;Screen Edge Swipe でデフォルト Pop トランジションで戻る&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Google&lt;/li&gt;
+&lt;li&gt;YouTube
+
+&lt;ul&gt;
+&lt;li&gt;縮小されて右下にとどまる&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Facebook Paper（通常のカード）
+
+&lt;ul&gt;
+&lt;li&gt;トランジション中のジェスチャーも妨げない&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Siori（コメントポップアップ）&lt;/li&gt;
+&lt;li&gt;Facebook（コメントポップアップ）&lt;/li&gt;
+&lt;li&gt;Facebook Paper（コメントポップアップ）
+
+&lt;ul&gt;
+&lt;li&gt;下から上に引っ張っても戻る&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Inbox
+
+&lt;ul&gt;
+&lt;li&gt;下から上に引っ張っても戻る&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Antenna（WebView）
+
+&lt;ul&gt;
+&lt;li&gt;下から上に引っ張っても戻る&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Facebook Paper（WebView）
+
+&lt;ul&gt;
+&lt;li&gt;左端、右端からスワイプでも戻る&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Storehouse
+
+&lt;ul&gt;
+&lt;li&gt;上下左右どこへ引っ張っても戻る&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="toc_12"&gt;まとめ&lt;/h2&gt;
+
+&lt;p&gt;どれがベスト、というものはありません。分かりやすく使いやすく、更には使っていて気持ちの良いインタラクションを提供するために、頑張る余地はまだまだたくさん残っていそうです。&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Auto Layout で n 等分するセパレータようなものを配置する</title>
+    <link rel="alternate" href="http://blog.tdksk.com/2014/12/14/auto-layout-separator.html"/>
+    <id>http://blog.tdksk.com/2014/12/14/auto-layout-separator.html</id>
+    <published>2014-12-14T04:35:00Z</published>
+    <updated>2015-01-09T04:43:12+00:00</updated>
+    <author>
+      <name>Keisuke Tada</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;img alt="20141106023758_0336a8bba51cf548f8ef5fe87fb303ed6ef3a335" src="https://cloud.githubusercontent.com/assets/2177378/5426452/8f6d7b4c-8395-11e4-96b2-9d54bae1e4ef.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;iOS アプリにおいて、↑のように View を n 等分するようにセパレータをつけたいという箇所がでてきました。&lt;/p&gt;
+
+&lt;p&gt;調べたら &lt;a href="http://mathewsanders.com/designing-adaptive-layouts-for-iphone-6-plus/#spacer-view-example"&gt;ここ&lt;/a&gt; に書いてありました。この記事は分かりやすいので見ればすぐ分かると思うのですが折角なので簡単に説明します。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="20141106023837_eed875da5706139c500323f07486d1917b31d77f" src="https://cloud.githubusercontent.com/assets/2177378/5426456/93f4334a-8395-11e4-9dec-5bef0694133a.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;まずセパレータの間にそれぞれ見えない（hidden プロパティが true になっている）View を追加します。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="20141106023852_4dace227f4c068a061ebabfd4589b36903376f76" src="https://cloud.githubusercontent.com/assets/2177378/5426458/983c8d76-8395-11e4-9da6-a77279041cae.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;あとはその見えない View を大枠となる View やセパレータとぴったりくっつくように（Horizontal Space を 0 に）して、見えない View すべてに Equal Width を適用します。セパレータの幅は固定幅で適当に決めれば良いです。&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>CSS に慣れた人が iOS で見た目を少し変えたい時に少し面倒だった事例 × 2</title>
+    <link rel="alternate" href="http://blog.tdksk.com/2014/11/27/ios-design-harder-than-css.html"/>
+    <id>http://blog.tdksk.com/2014/11/27/ios-design-harder-than-css.html</id>
+    <published>2014-11-27T13:41:00Z</published>
+    <updated>2015-01-09T04:43:12+00:00</updated>
+    <author>
+      <name>Keisuke Tada</name>
+    </author>
+    <content type="html">&lt;p&gt;CSS だと1行で簡単にできるから iOS でも簡単にできるんだろうな〜 Interface Builder もあるしな〜とか思ってると意外とそう簡単にはいかないということがあったので、せっかくのまだ iOS 開発に触れて間もないフレッシュな時期に書き残しておこうと思います。&lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;複数行ラベルの行間を変更したい&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src="https://cloud.githubusercontent.com/assets/2177378/5217680/0e16a4ee-7687-11e4-8b1c-afd60e94f584.png" /&gt;&lt;/p&gt;
+
+&lt;h3 id="toc_1"&gt;CSS なら&lt;/h3&gt;
+&lt;pre class="highlight css"&gt;&lt;span class="nt"&gt;line-height&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="nt"&gt;1&lt;/span&gt;&lt;span class="nc"&gt;.5&lt;/span&gt;&lt;span class="o"&gt;;&lt;/span&gt;
+&lt;/pre&gt;
+&lt;h3 id="toc_2"&gt;iOS の場合&lt;/h3&gt;
+
+&lt;p&gt;numberOfLines が適当に指定されていて、&lt;code&gt;text&lt;/code&gt; プロパティにコード上で値を代入しているような &lt;code&gt;label: UILabel&lt;/code&gt; があるとして、&lt;/p&gt;
+
+&lt;h4 id="toc_3"&gt;Objective-C&lt;/h4&gt;
+&lt;pre class="highlight text"&gt;CGFloat lineHeightMultiple = 1.5;
+
+NSMutableAttributedString *attributedString = [label.attributedText mutableCopy];
+
+NSMutableParagraphStyle *paragrahStyle = [NSMutableParagraphStyle new];
+paragrahStyle.lineHeightMultiple = lineHeightMultiple;
+
+[attributedString addAttribute:NSParagraphStyleAttributeName
+                         value:paragrahStyle
+                         range:NSMakeRange(0, attributedString.length)];
+
+[label setAttributedText:attributedString];
+&lt;/pre&gt;
+&lt;h4 id="toc_4"&gt;Swift&lt;/h4&gt;
+&lt;pre class="highlight text"&gt;let lineHeightMultiple: CGFloat = 1.5
+
+let attributedString = label.attributedText.mutableCopy() as NSMutableAttributedString
+
+let paragraphStyle = NSMutableParagraphStyle()
+paragraphStyle.lineHeightMultiple = lineHeightMultiple;
+
+attributedString.addAttribute(
+    NSParagraphStyleAttributeName,
+    value: paragraphStyle,
+    range: NSMakeRange(0, attributedString.length))
+
+label.attributedText = attributedString
+&lt;/pre&gt;
+&lt;h4 id="toc_5"&gt;長いので UILabel のカテゴリを作った&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href="https://gist.github.com/tdksk/d547fa69820bc4b7860a"&gt;https://gist.github.com/tdksk/d547fa69820bc4b7860a&lt;/a&gt;&lt;/p&gt;
+&lt;pre class="highlight text"&gt;[label setLineHeightMultiple:1.5];
+&lt;/pre&gt;
+&lt;p&gt;みたいな感じでいけます。&lt;/p&gt;
+
+&lt;h2 id="toc_6"&gt;全部じゃなくて一部角丸にしたい&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src="https://cloud.githubusercontent.com/assets/2177378/5217679/0e10ef04-7687-11e4-88eb-9e165bbf5710.png" /&gt;&lt;/p&gt;
+
+&lt;h3 id="toc_7"&gt;CSS なら&lt;/h3&gt;
+&lt;pre class="highlight css"&gt;&lt;span class="nt"&gt;border-radius&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="nt"&gt;4px&lt;/span&gt; &lt;span class="nt"&gt;4px&lt;/span&gt; &lt;span class="nt"&gt;0&lt;/span&gt; &lt;span class="nt"&gt;0&lt;/span&gt;&lt;span class="o"&gt;;&lt;/span&gt;
+&lt;/pre&gt;
+&lt;h3 id="toc_8"&gt;iOS の場合&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;view: UIView&lt;/code&gt; を角丸にしたいとき、全て角丸なら &lt;code&gt;view.layer.cornerRadius = 4.0&lt;/code&gt; とかで簡単にできるのですが、一部角丸にしたい場合は1行ではいかなくて、&lt;/p&gt;
+
+&lt;h4 id="toc_9"&gt;Objective-C&lt;/h4&gt;
+&lt;pre class="highlight text"&gt;CGFloat cornerRadius = 4.0;
+UIRectCorner corners = UIRectCornerTopLeft | UIRectCornerTopRight
+
+[view layoutIfNeeded];
+
+UIBezierPath *maskPath;
+maskPath = [UIBezierPath bezierPathWithRoundedRect:view.bounds
+                                 byRoundingCorners:corners
+                                       cornerRadii:CGSizeMake(cornerRadius, cornerRadius)];
+
+CAShapeLayer *maskLayer = [CAShapeLayer new];
+maskLayer.frame = view.bounds;
+maskLayer.path = maskPath.CGPath;
+
+view.layer.mask = maskLayer;
+&lt;/pre&gt;
+&lt;h4 id="toc_10"&gt;Swift&lt;/h4&gt;
+&lt;pre class="highlight text"&gt;let cornerRadius: CGFloat = 4.0
+let corners = UIRectCorner.TopLeft | UIRectCorner.TopRight
+
+view.layoutIfNeeded()
+
+let maskPath = UIBezierPath(
+    roundedRect: view.bounds,
+    byRoundingCorners: corners,
+    cornerRadii: CGSizeMake(cornerRadius, cornerRadius))
+
+let maskLayer = CAShapeLayer()
+maskLayer.frame = view.bounds
+maskLayer.path = maskPath.CGPath
+
+view.layer.mask = maskLayer
+&lt;/pre&gt;
+&lt;h4 id="toc_11"&gt;長いので UIView のカテゴリを作った&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href="https://gist.github.com/tdksk/21f6b821011398cc74f8"&gt;https://gist.github.com/tdksk/21f6b821011398cc74f8&lt;/a&gt;&lt;/p&gt;
+&lt;pre class="highlight text"&gt;[view maskByRoundingCorners:(UIRectCornerTopLeft | UIRectCornerTopRight)
+               cornerRadius:4.0];
+&lt;/pre&gt;
+&lt;p&gt;場所毎に角丸の大きさ変えたいケースが今までほぼなかったので大きさは固定です。&lt;/p&gt;
+
+&lt;h2 id="toc_12"&gt;所感&lt;/h2&gt;
+
+&lt;p&gt;View まわりのコード書くとき Swift だと速く書けるので Swift 好きです。&lt;/p&gt;
+
+&lt;p&gt;Swift で遊んでみたときのコードは &lt;a href="https://gist.github.com/tdksk/22ab94687e4a8103edc2"&gt;こちら&lt;/a&gt; 。&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>GitHub Notification Helper for Gmail</title>
+    <link rel="alternate" href="http://blog.tdksk.com/2014/03/20/github-notification-helper-for-gmail.html"/>
+    <id>http://blog.tdksk.com/2014/03/20/github-notification-helper-for-gmail.html</id>
+    <published>2014-03-20T06:57:00Z</published>
+    <updated>2015-01-09T04:43:12+00:00</updated>
+    <author>
+      <name>Keisuke Tada</name>
+    </author>
+    <content type="html">&lt;p&gt;GitHub と Gmail を使っている人向けの、便利な Chrome Extension の紹介です。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/muan/github-gmail"&gt;muan/github-gmail&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;GitHub からの通知メール（pull request とか issue とか）を Gmail で開くと、&lt;code&gt;&amp;lt;Shift&amp;gt; + g&lt;/code&gt; でそのスレッドのページを別タブで開くことができます。Gmail はキーボードショートカットが便利なので、この拡張を入れると GitHub からの通知をサクサクさばけます。もう &amp;ldquo;view it on GitHub&amp;rdquo; をクリックする必要はありません。&lt;br&gt;
+ちなみに、この拡張を作った &lt;a href="https://github.com/muan"&gt;Mu-An さん&lt;/a&gt; は GitHub のデザイナーの方みたいです。&lt;/p&gt;
+
+&lt;p&gt;また、最近では &lt;a href="http://dev.housetrip.com/trailer/"&gt;Trailer.app&lt;/a&gt; という OS X 用の pull request 監視ツールが流行っているみたいなので使ってみたらとても便利でした。こっちは主に自分の出した pull request の状態把握のために使っています。&lt;/p&gt;
+</content>
+  </entry>
+</feed>

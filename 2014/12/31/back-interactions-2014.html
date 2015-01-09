@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="IE=edge;chrome=1" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width,initial-scale=1.0" name="viewport" />
+    <title>インタラクション時代における iOS アプリの戻る（閉じる）操作の種類のまとめ 2014年版 - blog.tdksk.com</title><link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" /><link href="/stylesheets/all.css" media="all" rel="stylesheet" type="text/css" /><!--[if lte IE 8]><script src="//html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script><![endif]-->
+    <script type="text/javascript">
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-21700911-7', 'tdksk.com');
+      ga('send', 'pageview');
+    </script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1>
+          <a href="/">blog.tdksk.com</a>
+        </h1>
+        <h2>
+          design / tech
+        </h2>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <article class="article">
+          <h1 class="article-title">
+            インタラクション時代における iOS アプリの戻る（閉じる）操作の種類のまとめ 2014年版
+          </h1>
+          <p class="article-date">
+            2014-12-31
+          </p>
+          <h2 id="toc_0">背景</h2>
+          
+          <p>iPhone も年々デバイスサイズが大きくなっていき、左上のナビゲーションバー上のボタンを片手で押すことが困難になってきました。そのような時代においてはスワイプジェスチャーによるナビゲーション操作が今まで以上に重要になってきます。また、最近では情報の階層を分かりやすく表現するためにトランジションもどんどん工夫されています。トランジションが複雑になればなるほどその操作も複雑になるため、分かりやすさと使いやすさを両立するためにインタラクションを工夫する必要があります。</p>
+          
+          <p>そんな2014年の終わりとして現時点での情報閲覧系 iOS アプリでの戻る（閉じる）操作の種類をまとめてみました。</p>
+          
+          <h2 id="toc_1">遷移（Push）時のトランジションがデフォルト（新しい画面が右から左に出てくる）</h2>
+          
+          <h3 id="toc_2">Screen Edge Swipe（デフォルトの Pop トランジション）</h3>
+          
+          <p>デフォルトの Push トランジションで遷移した画面は、画面左端を右方向にスワイプすることで戻ることができる。最も無難な選択肢で、中途半端なカスタムトランジションを作るくらいなら Push も Pop もデフォルトのトランジションにするのが分かりやすいし操作もしやすい。</p>
+          
+          <ul>
+          <li>Apple 純正アプリ</li>
+          <li>Tumblr</li>
+          <li>Coach.me</li>
+          <li>Basecamp</li>
+          <li>Google (WebView)</li>
+          <li>The New York Times</li>
+          <li>BuzzFeed</li>
+          <li>LINE</li>
+          <li>Wantedly</li>
+          <li>Sumally</li>
+          </ul>
+          
+          <h3 id="toc_3">Screen Edge Swipe が有効だが、スクロール時には無効</h3>
+          
+          <p>デフォルトの Screen Edge Swipe のジェスチャー検出はスクロール時にも行われるため、左手で操作している人だと上方向にスクロールしている時に意図せず Screen Edge Swipe となり画面が戻ることがあるという問題もある。そのためかいくつかのアプリではスクロール時は Screen Edge Swipe を無効化しているものがある。</p>
+          
+          <p>実装参考：<a href="http://qiita.com/inamiy/items/fa91da40d0da53123a83">iOS - UINavigationControllerのinteractivePopGestureRecognizerの感度を調整する - Qiita</a></p>
+          
+          <ul>
+          <li>Facebook</li>
+          <li>Twitter</li>
+          <li>Airbnb</li>
+          <li>Foursquare</li>
+          <li>Yelp</li>
+          <li>Evernote</li>
+          <li>Vine</li>
+          <li>Product Hunt</li>
+          </ul>
+          
+          <h3 id="toc_4">Screen Edge Swipe 無効</h3>
+          
+          <p>Screen Edge Swipe で戻る動作が無効になっているものもある。通常の Push トランジションのような遷移の場合は、基本的に無効化するべきでない。Google のアプリは頑なに有効化しないイメージ。</p>
+          
+          <ul>
+          <li>Gmail</li>
+          <li>Google Chrome</li>
+          <li>Gogobot</li>
+          <li>SideChef</li>
+          <li>Medium</li>
+          <li>WEAR</li>
+          <li>食べログ</li>
+          </ul>
+          
+          <h3 id="toc_5">Sloppy Swiping</h3>
+          
+          <p>今年頭に <a href="http://thenewsprint.co/2014/04/16/sloppy-swiping/">Josh Ginter がブログで提唱した</a> 言葉（その後 <a href="http://blog.jaredsinclair.com/post/83544603052/sloppy-swiping-how-to-make-an-app-feel">Jared Sinclair も詳しく言及している</a>）。画面端という特定の場所だけでなく、画面内の任意の場所でのスワイプのことを指す。</p>
+          
+          <p>Sloppy Swiping で戻る操作はとてもやりやすく強力なアプローチだが、これを有効にするとその他のスワイプジェスチャーを殺さざるをえないという諸刃の剣。Reeder 2 は戻るだけでなく進む動作も Sloppy Swiping で可能でこれ自体はとても良いが、セルの部分をスワイプすると別の挙動になったり、WebView では Sloppy Swiping が有効でなくなったりしているため一貫性がなく全体としてあまり良いとはいえない。Sloppy Swiping で戻る動作を有効にするなら、アプリ内全てで一貫して（どの画面、どの位置でも）この操作が有効になるようにするべき。Instagram はとても良くできていて使っていて気持ちが良い。</p>
+          
+          <p>実装参考：<a href="https://github.com/fastred/SloppySwiper">fastred/SloppySwiper</a>、<a href="http://akisute.com/2014/08/uinavigationcontrollerinteractivepopges.html">A-Liaison BLOG: UINavigationController.interactivePopGestureRecognizer の挙動を魔改造して変えてみる</a></p>
+          
+          <ul>
+          <li>Instagram</li>
+          <li>Wunderlist</li>
+          <li>Unread</li>
+          <li>Tinder（メッセージ画面）</li>
+          <li>DuckDuckGo</li>
+          <li>Flipboard
+          
+          <ul>
+          <li>加速度が大きいと指を離さなくても遷移</li>
+          </ul></li>
+          <li>Reeder 2
+          
+          <ul>
+          <li>セル部分は別の挙動</li>
+          </ul></li>
+          </ul>
+          
+          <h3 id="toc_6">指の動きについてこない Sloppy Swiping</h3>
+          
+          <p>UI 的には上記のものの下位互換。指を一定距離動かすか離すまで画面が何も変化しない（アフォーダンスが発生しない）ので学習コストが高い上に使っていて気持ちが悪い。特別な理由がなければ指の動きに合わせて画面が動くようにするべき。</p>
+          
+          <ul>
+          <li>Instapaper</li>
+          <li>Sunrise</li>
+          <li>Yummly</li>
+          <li>クックパッド</li>
+          <li>755</li>
+          <li>NewsPicks</li>
+          <li>Gunosy</li>
+          <li>SmartNews
+          
+          <ul>
+          <li>トランジションが特殊</li>
+          </ul></li>
+          </ul>
+          
+          <h2 id="toc_7">遷移（Push）時のトランジションが特殊</h2>
+          
+          <h3 id="toc_8">Screen Edge Swipe で戻るときはデフォルトの Pop トランジション</h3>
+          
+          <p>最近では Push 時のトランジションが、対象がズームするもしくは中身が広がるようなものが増えた（<a href="http://www.google.com/design/spec/patterns/navigational-transitions.html#navigational-transitions-parent-to-child">Material Design でも採用されている</a>）。ナビゲーションバーの戻る（閉じる）ボタンを押すと逆のトランジションで戻るが、利便性を考えてか Screen Edge Swipe でデフォルトの Pop トランジションで戻ることのできるものが多い。トランジションの一貫性はないものの、戻るときの操作自体には違和感が少ないという利点がある。</p>
+          
+          <ul>
+          <li>Snapguide</li>
+          <li>Sosh</li>
+          <li>Play Newsstand</li>
+          <li>Pinterest
+          
+          <ul>
+          <li>上から下に引っ張って離しても戻る</li>
+          </ul></li>
+          <li>Facebook Groups
+          
+          <ul>
+          <li>上から下に引っ張って離しても戻る</li>
+          </ul></li>
+          <li>Mashable
+          
+          <ul>
+          <li>戻るボタンを押した時もデフォルト Pop トランジション</li>
+          </ul></li>
+          </ul>
+          
+          <h3 id="toc_9">Screen Edge Swipe で戻るときがその逆のトランジション</h3>
+          
+          <p>上と同じような特殊トランジションをするが、Screen Edge Swipe で通常の Pop トランジションではなく特殊トランジションとなる。Push 時のトランジションの逆のトランジションになるので迷いにくく、かつトランジションが指の動きについてくるので操作の気持ちよさはあるものの、そのトランジションが必ずしも左から右への動作と感覚的に一致するものとは限らないので分かりにくいかも。</p>
+          
+          <ul>
+          <li>Design Shots</li>
+          <li>Evernote（Notebooks や Tags 開閉）</li>
+          <li>iQON
+          
+          <ul>
+          <li>スクロール後はデフォルト Pop トランジションで戻る</li>
+          </ul></li>
+          </ul>
+          
+          <h3 id="toc_10">左端からスワイプした瞬間にトランジション</h3>
+          
+          <p>スワイプジェスチャーが検出された瞬間にトランジションが発動するものもいくつか存在する。指の動きについてこず気持ち悪いため、上のような実装にするほうがベターな感じはする。とはいえ、戻るためにボタンを押す以外の選択肢を与えないよりは良い。</p>
+          
+          <ul>
+          <li>Yahoo News Digest</li>
+          <li>Fancy</li>
+          <li>Spring
+          
+          <ul>
+          <li>上から下に引っ張って離しても戻る</li>
+          </ul></li>
+          <li>Simplenote</li>
+          </ul>
+          
+          <h3 id="toc_11">Sloppy Swiping で上から下に引っ張って離すと戻る</h3>
+          
+          <p>ズームもしくは中身が広がるようなトランジションの場合、上から下に引っ張る動作で戻ることができるものも多い。上下にスクロールするような画面の場合、一番上まで戻った時にさらにスクロールすると前の画面に戻るというのはある意味自然なのかもしれない。感覚としても上から下に引っ張って離した時に縮小したりするトランジションは違和感が少ない。</p>
+          
+          <p>Facebook Paper はトランジションの種類が多いが、トランジションに合わせてどこかしらに Sloppy Swiping すると戻る挙動になっていて使いやすさを保っていてすごい。Storehouse は上下左右どの方向にスワイプしても縮小して戻ることができてすごい（このアプリは動きが独特で水の中にいるような錯覚を覚える）。</p>
+          
+          <ul>
+          <li>Spring
+          
+          <ul>
+          <li>Screen Edge Swipe した瞬間にもトランジション発火</li>
+          </ul></li>
+          <li>Pinterest
+          
+          <ul>
+          <li>Screen Edge Swipe でデフォルト Pop トランジションで戻る</li>
+          </ul></li>
+          <li>Rooms</li>
+          <li>Facebook Groups
+          
+          <ul>
+          <li>Screen Edge Swipe でデフォルト Pop トランジションで戻る</li>
+          </ul></li>
+          <li>Google</li>
+          <li>YouTube
+          
+          <ul>
+          <li>縮小されて右下にとどまる</li>
+          </ul></li>
+          <li>Facebook Paper（通常のカード）
+          
+          <ul>
+          <li>トランジション中のジェスチャーも妨げない</li>
+          </ul></li>
+          <li>Siori（コメントポップアップ）</li>
+          <li>Facebook（コメントポップアップ）</li>
+          <li>Facebook Paper（コメントポップアップ）
+          
+          <ul>
+          <li>下から上に引っ張っても戻る</li>
+          </ul></li>
+          <li>Inbox
+          
+          <ul>
+          <li>下から上に引っ張っても戻る</li>
+          </ul></li>
+          <li>Antenna（WebView）
+          
+          <ul>
+          <li>下から上に引っ張っても戻る</li>
+          </ul></li>
+          <li>Facebook Paper（WebView）
+          
+          <ul>
+          <li>左端、右端からスワイプでも戻る</li>
+          </ul></li>
+          <li>Storehouse
+          
+          <ul>
+          <li>上下左右どこへ引っ張っても戻る</li>
+          </ul></li>
+          </ul>
+          
+          <h2 id="toc_12">まとめ</h2>
+          
+          <p>どれがベスト、というものはありません。分かりやすく使いやすく、更には使っていて気持ちの良いインタラクションを提供するために、頑張る余地はまだまだたくさん残っていそうです。</p>
+          
+        </article>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <p>
+          &copy; 2015 <a href="http://tdksk.com/">Keisuke Tada</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
